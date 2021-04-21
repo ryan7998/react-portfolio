@@ -7,6 +7,7 @@ function Navbar(props){
         setMenuItemSelected
     } = props;
     const [scroll, setScroll] = useState(false);
+    const [collapse, setCollapse] = useState(true);
     
     useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -17,14 +18,12 @@ function Navbar(props){
     return(
         <nav className={`navbar navbar-expand-lg ${scroll && 'scroll'}`}>
             <div className="container">
-
                 <a className="navbar-brand" href="">Fazle Ryan</a>
-
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded={!collapse} aria-label="Toggle navigation" onClick={()=>setCollapse(!collapse)} >
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse" id="navbarNav">
+                <div className={`collapse navbar-collapse ${!collapse && 'show'}`} id="navbarNav">
                     <ul className="navbar-nav mx-auto">
                         
                         <li className="nav-item">
@@ -41,7 +40,7 @@ function Navbar(props){
                     </ul>
 
                     <div className="mt-lg-0 mt-3 mb-4 mb-lg-0">
-                        <a href="#" className="custom-btn btn">Resume</a>
+                        <a href="#" className="custom-btn">Resume</a>
                     </div>
                 </div>
 

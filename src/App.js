@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import AboutMe from './Components/AboutMe';
 import Footer from './Components/Footer';
 import Contact from './Components/Contact';
+import Portfolio from './Components/Portfolio';
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
         return <AboutMe />;
         break;
       case 'Portfolio':
-        return <AboutMe />;
+        return <Portfolio />;
         break;
       case 'Contact':
         return <Contact />
