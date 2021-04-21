@@ -6,6 +6,7 @@ import AboutMe from './Components/AboutMe';
 import Footer from './Components/Footer';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
+import Resume from './Components/Resume';
 
 function App() {
 
@@ -20,6 +21,9 @@ function App() {
         break;
       case 'Contact':
         return <Contact />
+        break;
+      case 'Resume':
+        return <Resume />
         break;
       default: break;
     }

@@ -14,6 +14,9 @@ function Navbar(props){
             setScroll(window.scrollY > 50);
         });
     }, []);
+    useEffect(()=>{
+     document.title = menuItemSelected;   
+    },[menuItemSelected]);
 
     return(
         <nav className={`navbar navbar-expand-lg ${scroll && 'scroll'}`}>
@@ -27,20 +30,20 @@ function Navbar(props){
                     <ul className="navbar-nav mx-auto">
                         
                         <li className="nav-item">
-                            <span className={`nav-link smoothScroll ${menuItemSelected==='About Me' && 'active text-white'}`} onClick={()=>setMenuItemSelected('About Me')}>About Me</span>
+                            <span className={`nav-link smoothScroll ${menuItemSelected==='About Me' && 'active text-white'}`} onClick={()=>{setMenuItemSelected('About Me'); setCollapse(!collapse)}}>About Me</span>
                         </li>
 
                         <li className="nav-item">
-                            <span className={`nav-link smoothScroll ${menuItemSelected==='Portfolio' && 'active text-white'}`} onClick={()=>setMenuItemSelected('Portfolio')}>Portfolio</span>
+                            <span className={`nav-link smoothScroll ${menuItemSelected==='Portfolio' && 'active text-white'}`} onClick={()=>{setMenuItemSelected('Portfolio'); setCollapse(!collapse)}}>Portfolio</span>
                         </li>
 
                         <li className="nav-item">
-                            <span className={`nav-link smoothScroll ${menuItemSelected==='Contact' && 'active text-white'}`} onClick={()=>setMenuItemSelected('Contact')}>Contact</span>
+                            <span className={`nav-link smoothScroll ${menuItemSelected==='Contact' && 'active text-white'}`} onClick={()=>{setMenuItemSelected('Contact'); setCollapse(!collapse)}}>Contact</span>
                         </li>
                     </ul>
 
                     <div className="mt-lg-0 mt-3 mb-4 mb-lg-0">
-                        <a href="#" className="custom-btn">Resume</a>
+                        <a href="#" className="custom-btn" onClick={()=>{setMenuItemSelected('Resume'); setCollapse(!collapse)}}>Resume</a>
                     </div>
                 </div>
 

@@ -14,11 +14,11 @@ function PortfolioItem({projects}){
                         <div className="card-img-overlay opac text-center text-dark" >
                             <h3 className="text-dark mt-3"><b>{project.title}</b></h3>
                             <div className="row social-links">
-                                {/* render only if links available: */}
-                                {project.link && (<div className="col-6"><a href={project.link} className="fas fa-link largeicon" target="_blank"/><div>Live</div></div>)}
-                                {project.github && (<div className="col-6"><a href={project.github} className="fab fa-github largeicon" target="_blank"/><div>GitHub</div></div>)}
+                                {/* render only if links are available: */}
+                                {project.link && (<div className="col-6"><a href={project.link} className="fas fa-link largeicon" target="_blank"/><div>Live Site</div></div>)}
+                                {project.github && (<div className="col-6"><a href={project.github} className="fab fa-github largeicon" target="_blank"/><div>Git Repo</div></div>)}
                             </div>
-                            <p className="custom-btn btn card-title text-center mx-3">Primary: <b>{project.category}</b></p>
+                            <p className="custom-btn btn card-title text-center mx-3">Focus: <b>{project.category}</b></p>
                         </div>
                     )}
             </div>

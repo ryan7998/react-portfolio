@@ -12,7 +12,7 @@ function AboutMe(){
                     </div>
                     <div className="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
                         <div className="hero-text">
-                            <h1 className="hero-title">👋 Fazle, a full stack developer</h1>
+                            <h1 className="hero-title">Ryan, a full stack developer</h1>
                             <a href="#" className="email-link">
                                 mail@fazleryan.com
                             </a>
@@ -22,17 +22,17 @@ function AboutMe(){
             </div>
         </section>
 
-        <section className="about section-padding" id="about">
+        <section className="about section-padding pt-0" id="about">
         <div className="container">
                 <div className="row">
                     <div className="mx-auto col-12">
-                        <h3 className="my-5 text-center">About Fazle Ryan</h3>
+                        <h1 className="mb-5 text-center">About Me</h1>
                         <p>
-                            A full stack web developer with a strong background in PHP, HTML/CSS, Javascript, Jquery, Node. 
-                            Ryan has much experience of creating logical and innovative solutions to complex problems. 
-                            He is a Zend Certified PHP programmer. He is committed to having an impact on the future of the industry, 
-                            and possesses the enthusiasm and commitment to learn and develop his career within a fast paced and growing business. 
-                            He has experience of working in a leading global internet technology company and of completing challenging client projects.
+                            I am a full stack web developer with a background in JS(MERN) and also a Zend Certified PHP programmer.<br></br>
+                            I love creating logical and innovative solutions to complex problems.
+                            I am committed to having an impact on the future of the industry, 
+                            and possess the enthusiasm and commitment to learn and develop within a fast paced and growing organization. <br></br>
+                            I am experienced working in a global IT company and also as a freelancer.
                         </p>
                     </div>
                     {/* <div className="col-lg-5 mx-auto col-md-6 col-12">

@@ -81,7 +81,7 @@ https://www.tooplate.com/view/2120-ben-resume
     transition: all 0.5s ease;
   }
   .opac:hover{
-    background-color: #ffffffab;
+    background-color: #ffffffde;
   }
   .largeicon{
     font-size: 100px;
@@ -93,7 +93,7 @@ https://www.tooplate.com/view/2120-ben-resume
     transition: all 0.5 ease;
   }
   a:hover{
-    padding: 5px;
+    padding-left: 10px;
   }
 /* End By Ryan */
 
@@ -347,19 +347,20 @@ https://www.tooplate.com/view/2120-ben-resume
     display: inline-block;
     margin: 0.5rem 0;
     padding: 0.5rem 2rem 1.5rem 2rem;
-	font-size: 2.2em;
+    font-size: 2.2em;
   }
 
   .email-link {
     background: var(--primary-color);
     color: var(--dark-color);
-    font-size: var(--h4-font-size);
+    font-size: var(--h5-font-size);
     padding: 0.5rem 2rem 1rem 2rem;
   }
 
   .email-link:hover {
     background: var(--dark-color);
     color: var(--white-color);
+    padding: 0.5rem 2rem 1rem 2.5rem;
   }
 
 
@@ -573,7 +574,7 @@ https://www.tooplate.com/view/2120-ben-resume
   .social-links a {
     display: inline-block;
     color: var(--dark-color);
-    /* font-size: var(--h1-font-size); */
+    font-size: var(--h1-font-size);
     margin: 0 25px;
   }
 
