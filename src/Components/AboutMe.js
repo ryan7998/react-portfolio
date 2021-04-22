@@ -12,10 +12,14 @@ function AboutMe(){
                     </div>
                     <div className="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
                         <div className="hero-text">
-                            <h1 className="hero-title">Ryan, a full stack developer</h1>
+                            <h1 className="hero-title">Hi I am Fazle Ryan Chowdhury</h1>
+                            <a href="#" className="email-link">
+                                A full stack developer
+                            </a>
+                            {/* <h1 className="hero-title">Ryan, a full stack developer</h1>
                             <a href="#" className="email-link">
                                 mail@fazleryan.com
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
@@ -28,10 +32,10 @@ function AboutMe(){
                     <div className="mx-auto col-12">
                         <h1 className="mb-5 text-center">About Me</h1>
                         <p>
-                            I am a full stack web developer with a background in JS(MERN) and also a Zend Certified PHP programmer.<br></br>
+                            I am a full stack web developer with a background in JS (MERN Stack) and also a Zend Certified PHP Engineer.<br />
                             I love creating logical and innovative solutions to complex problems.
                             I am committed to having an impact on the future of the industry, 
-                            and possess the enthusiasm and commitment to learn and develop within a fast paced and growing organization. <br></br>
+                            and possess the enthusiasm and commitment to learn and develop within a fast paced and growing organization. <br />
                             I am experienced working in a global IT company and also as a freelancer.
                         </p>
                     </div>

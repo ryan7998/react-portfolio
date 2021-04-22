@@ -50,6 +50,9 @@ function Contact(){
                             <button type="submit" className="form-control" id="submit-button" name="submit">Send</button>
                         </form>
                     </div>
+                    <div className="row mt-5">
+                        <p>Or please call me at: 437-234-667 or mail me at mail@fazleryan.com</p>
+                    </div>
                 </div>
             </div>
         </section>
