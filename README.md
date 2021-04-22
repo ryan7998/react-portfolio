@@ -14,4 +14,4 @@
 - When a user navigates to Resume, he/she will be presented with my technical skills and a downloadable link to my resume in .docx format.
 
 ## Site:
-- Link to the site: https://ryan7998-budget-tracker.herokuapp.com
+- Link to the site: https://ryan7998.github.io/react-portfolio/
