@@ -15,7 +15,7 @@ function resume(){
                         <b>Other skills:</b> Server architecture(NGINX, Apache, MySQL database), SEO coding best practices.</p>
                     </div>
                     <div className="col-md-12 mt-5">
-                        <a className="custom-btn" href={resumeDoc} target="_blank" download> Download My Resume (.docx)</a>
+                        <a className="custom-btn" href={resumeDoc} target="_blank" download> <i className="fas fa-file-download mr-2"></i> Download My Resume (.docx)</a>
                     </div>
                 </div>
             </div>

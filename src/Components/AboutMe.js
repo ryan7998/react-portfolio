@@ -12,7 +12,7 @@ function AboutMe(){
                     </div>
                     <div className="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
                         <div className="hero-text">
-                            <h1 className="hero-title">Hi I am Fazle Ryan Chowdhury</h1>
+                            <h1 className="hero-title">Hi! I am Fazle Ryan Chowdhury</h1>
                             <a href="#" className="email-link">
                                 A full stack developer
                             </a>
@@ -30,7 +30,7 @@ function AboutMe(){
         <div className="container">
                 <div className="row">
                     <div className="mx-auto col-12">
-                        <h1 className="mb-5 text-center">About Me</h1>
+                        <h1 className="mb-5 text-center"><i className="far fa-user mr-5"/>About Me</h1>
                         <p>
                             I am a full stack web developer with a background in JS (MERN Stack) and also a Zend Certified PHP Engineer.<br />
                             I love creating logical and innovative solutions to complex problems.

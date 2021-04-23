@@ -27,7 +27,7 @@ function Contact(){
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <h1 className="my-5 text-center">Contact Me</h1>
+                        <h1 className="my-5 text-center"><i className="far fa-envelope-open mr-5" />Contact Me</h1>
 
                         <form id="contact-form" onSubmit={handleSubmit} className="contact-form webform">
                             <div className="form-group d-flex flex-column-reverse">
