@@ -47,7 +47,7 @@ function Contact(){
                                     {errorMessage}
                                 </div>
                             )}
-                            <button type="submit" className="form-control" id="submit-button" name="submit">Send</button>
+                            <button type="submit" className="custom-btn btn" name="submit"><i className="far fa-paper-plane mr-2"/>Send</button>
                         </form>
                     </div>
                     <div className="row mt-5">
