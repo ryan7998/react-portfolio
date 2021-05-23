@@ -8,7 +8,7 @@ function resume(){
                 <div className="row">
                     <h1 className="my-5 text-center">Technical Skills</h1>
                     <div className="col-md-12">
-                        <p><b>Skills:</b> Nodejs, JavaScript , React.js, PHP, Drupal, MySql, sqlite, ORM (Sequelize), MongoDB, ODM (Mongoose), 
+                        <p><b>Skills:</b> MERN stack (GraphQl, Redux),  PHP, Drupal, MySql, sqlite, ORM (Sequelize), ODM (Mongoose), 
                         IndexedDB, HTML, CSS, jQuery, Bootstrap, Flex, Grid, Zurb Foundation, Wordpress, TDD(Jest).<br></br>
                         <b>Application /Technologies:</b> Git, Heroku, Slack, Confluence, Asana, Jira, Unfuddle STACK, 
                         cross-platform FTP application, composer, drush, Insomnia.<br></br>

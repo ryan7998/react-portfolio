@@ -1,6 +1,22 @@
 [
   {
     "id": 1,
+    "title": "Dog Dash",
+    "image": "Dog-Dash.png",
+    "github": "https://github.com/pro3gro3/walk-my-dog",
+    "link": "https://dog-dash.herokuapp.com",
+    "category": "MERN (Redux)"
+  },
+  {
+    "id": 2,
+    "title": "Shop Shop",
+    "image": "Shop-Shop.png",
+    "github": "https://github.com/ryan7998/shop-shop",
+    "link": "https://ryan7998-redux-shop.herokuapp.com/",
+    "category": "MERN"
+  },
+  {
+    "id": 3,
     "title": "Milestone",
     "image": "Milestone.png",
     "github": "https://github.com/proj2gr4/Milestone-Project",
@@ -8,43 +24,27 @@
     "category": "NodeJs"
   },
   {
-    "id": 2,
-    "title": "Food Festival",
-    "image": "Food-Festival.png",
-    "github": "https://github.com/ryan7998/food-festival",
-    "link": "https://ryan7998.github.io/food-festival/",
-    "category": "PWA"
-  },
-  {
-    "id": 3,
-    "title": "Save Tv",
-    "image": "Save-Tv.png",
-    "github": "https://github.com/UTBootCampGroup2/SaveTV",
-    "link": "https://utbootcampgroup2.github.io/SaveTV",
-    "category": "LocalStorage"
-  },
-  {
     "id": 4,
-    "title": "Social Network API",
-    "image": "Social-Network.png",
-    "github": "https://github.com/ryan7998/social-network-api",
-    "link": "",
-    "category": "MongoDb"
+    "title": "Book Search",
+    "image": "Book-Search.png",
+    "github": "https://github.com/ryan7998/book-search-engine",
+    "link": "https://ryan7998-book-search-engine.herokuapp.com/",
+    "category": "GraphQl"
   },
   {
     "id": 5,
-    "title": "Taskmaster-Pro",
-    "image": "Taskmaster-Pro.png",
-    "github": "https://github.com/ryan7998/taskmaster-pro",
-    "link": "https://ryan7998.github.io/taskmaster-pro/",
-    "category": "jQuery"
+    "title": "Old Portfolio",
+    "image": "Old-Portfolio.png",
+    "github": "https://github.com/ryan7998/fazleryan.com",
+    "link": "https://old.fazleryan.com",
+    "category": "WordPress"
   },
   {
     "id": 6,
-    "title": "Pizza Hunt",
-    "image": "Pizza-Hunt.png",
-    "github": "https://github.com/ryan7998/pizza-hunt",
-    "link": "https://pizza-hunt-ryan.herokuapp.com/",
-    "category": "indexedDB"
+    "title": "Godzilla Labs",
+    "image": "Godzilla-Labs.png",
+    "github": "https://github.com/ryan7998/godzillalabs_theme",
+    "link": "http://godzillalabs.com/",
+    "category": "Drupal"
   }
 ]

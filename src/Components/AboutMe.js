@@ -16,10 +16,6 @@ function AboutMe(){
                             <a href="#" className="email-link">
                                 A full stack developer
                             </a>
-                            {/* <h1 className="hero-title">Ryan, a full stack developer</h1>
-                            <a href="#" className="email-link">
-                                mail@fazleryan.com
-                            </a> */}
                         </div>
                     </div>
                 </div>
@@ -29,19 +25,15 @@ function AboutMe(){
         <section className="about section-padding pt-0" id="about">
         <div className="container">
                 <div className="row">
-                    <div className="mx-auto col-12">
-                        <h1 className="mb-5 text-center"><i className="far fa-user mr-5"/>About Me</h1>
+                    <div className="mx-auto col-12 text-center">
                         <p>
-                            I am a full stack web developer with a background in JS (MERN Stack) and also a Zend Certified PHP Engineer.<br />
-                            I love creating logical and innovative solutions to complex problems.
-                            I am committed to having an impact on the future of the industry, 
-                            and possess the enthusiasm and commitment to learn and develop within a fast paced and growing organization. <br />
-                            I am experienced working in a global IT company and also as a freelancer.
+                            With a bachelor's degree in computer science and 3 years experience on web development with PHP, <br />
+                            I am looking for a junior level position as a JS (MERN stack) developer. <br />
+                            I have recently completed bootcamp course focusing on JS from University of Toronto, <br />
+                            and I am also a Zend Certified Engineer. I also have 5 years experience managing my own business.<br />
+                            <a href = "https://www.upwork.com/fl/fazleryan" target="_blank">Click here</a> to checkout my freelancing profile.
                         </p>
                     </div>
-                    {/* <div className="col-lg-5 mx-auto col-md-6 col-12">
-                        <img src="images/true-agency.jpg" className="about-image img-fluid" alt="Ben's Resume HTML Template" />
-                    </div> */}
                 </div>
             </div>
         </section>
